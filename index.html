@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Al-Mohandes</title>
+  <!-- bootstrap style -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- fontawesome style -->
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <!-- cairo font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+
+  <!-- main style sheet -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-spy" >
+
+  <!-- start of head  -->
+  <header class="text-white bg-dark d-flex justify-content-around align-items-center">
+    <ul class=" mb-0 d-flex justify-content-center align-items-center gap-4">
+      <li>
+        <i class="fa-regular fa-envelope"></i>
+        <a class="fs-6 text-white" href="mailto:amirsakr001@gmail.com">amirsakr001@gmail.com</a>
+      </li>
+      <li>
+        <i class="fa-solid fa-phone"></i>
+        <a class="fs-6 text-white" href="tel:+201066160783">01066160783</a>
+      </li>
+    </ul>
+    <ul class=" mb-0 d-flex justify-content-center align-items-center gap-4">
+      <li>
+        <a class="text-success" href="https://wa.me/+201020917030" target="_blank">
+          <i class="fa-brands fa-whatsapp fs-4"></i>
+        </a>
+      </li>
+      <li>
+        <a class="text-primary" href="https://www.facebook.com/groups/route.web.course.cycel42" target="_blank">
+          <i class="fa-brands fa-facebook fs-5"></i>
+        </a>
+      </li>
+    </ul>
+  </header>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary " id="navbar-spy">
+    <div class="container w-50 ">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="./assets/logo.png" alt="Al-Mohandes">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item p-3">
+            <a class="text-black nav-link active position-relative p-0" aria-current="page" href="#home">الرئيسية</a>
+          </li>
+          
+          <li class="nav-item p-3">
+            <a class="text-black nav-link right-border position-relative p-0" href="#about">من نحن؟</a>
+          </li>
+          <li class="nav-item p-3">
+            <a class="text-black nav-link right-border position-relative p-0" href="#service">خدماتنا</a>
+          </li>
+          <li class="nav-item p-3">
+            <a class="text-black nav-link right-border position-relative p-0" href="#contact">تواصل معنا</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end of head  -->
+
+  <section id="home" class="main-slider">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active  ">
+              <img  class="d-block w-100 img1 " alt="عربيات المهندس">
+              <div class="carousel-caption d-none d-md-block position-absolute top-50 left-50 ">
+                <h5 >مرحبا بكم في شركه المهندس</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100 img1" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5  class="text-center">جميع الخدمات الخاصة بتجهيزات الهياكل المعدنيه توريدات وصيانه</h5>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <img src="..." class="d-block w-100 img1" alt="...">
+              <div class="carousel-caption d-none d-md-block  d-flex align-items-center justify-content-center">
+                <h5>تأتي معايير الجوده والسلامه العالميه أولا</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  </section>
+
+  <!-- about section -->
+  <section id="about" class="about section-p-s">
+    <div class="section-header mt-4 pt-4" >
+    </div>
+    <div class="container">
+      <!-- section header -->
+      <!-- <div class="row">
+        <div class="col-sm-12">
+          <div class="text-center title-box ">
+            <h2 class="title-text">من نحن</h2>
+            <div class="line-un"></div>
+          </div>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="about-box">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="text-center title-box ">
+                  <h2 class="title-text">من نحن</h2>
+                  <div class="line-un"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5">
+                <div>
+                  <img class="w-100" src="./assets/logo.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-7">
+                <h3 class="fw-bold">شركة المهندس</h3>
+                <p class="lead">تقدم شركة المهندس جميع الخدمات الخاصة بتجهيز الهاكل المعدنية توريدات و صيانة</p>
+                <p class="lead">تجهيزات السيارات - هياكل معدنية - خدمات هيدروليكية - صيانة سلالم - رامبات - ابواب متحركة - توريدات - صيانة</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about section -->
+
+  <!--=========== SERVICES =============-->
+<div class="services section-p-s" id="service">
+  <div class="container">
+      <div class="special-heading aos-init m-auto" data-aos="fade-up" data-aos-duration="1500">
+          <h2>خد<span>ما</span>ت</h2>
+          <p>  نحن في شركة المهندس نقدم لك الافضل في مجال تجاره وتجهيزات السيارات</p>
+      </div>
+      <div class="services-content">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-3 col-sm-6 aos-init" data-aos="fade-up-right" data-aos-duration="1000">
+                      <div class="serviceBox main">
+                          <div class="service-icon">
+                              <span><i class="fa-solid fa-car"></i></span>
+                          </div>
+                          <h3 class="title">تجهيزات السيارت</h3>
+                          <p class="description">لدينا في شركه المهندس جميع تجهيزات السيارت</p>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 aos-init" data-aos="fade-down" data-aos-duration="1000">
+  
+                      <div class="serviceBox pink">
+                          <div class="service-icon">
+                              <span><i class="fa-solid fa-wrench"></i></span>
+                          </div>
+                          <h3 class="title ">هياكل معدنيه</h3>
+                          <p class="description">يوجد في شركه المهندس جميع الهياكل المعدنيه.</p>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 aos-init" data-aos="fade-up-left" data-aos-duration="1000">
+  
+                      <div class="serviceBox red">
+                          <div class="service-icon">
+                              <span><i class="fa-solid fa-truck-ramp-box"></i></span>
+                          </div>
+                          <h3 class="title ">خدمات هيدروليكيه </h3>
+                          <p class="description">ستجد لدينا جميع الخدمات الهيدروليكيه</p>
+                      </div>
+                  </div>
+  
+                  <div class="col-md-3 col-sm-6 aos-init" data-aos="fade-down" data-aos-duration="1000">
+  
+                      <div class="serviceBox pink">
+                          <div class="service-icon">
+                              <span><i class="fa-solid fa-truck"></i></span>
+                          </div>
+                          <h3 class="title">توريدات </h3>
+                          <p class="description"></p>
+                      </div>
+                  </div>
+  
+  
+                  <div class="col-md-3 col-sm-6 aos-init" data-aos="fade-up-left" data-aos-duration="1000">
+                  <div class="serviceBox red">
+                      <div class="service-icon">
+                          <span> <i class="fa-solid fa-screwdriver-wrench"></i></span>
+                      </div>
+                      <h3 class="title">صيانه</h3>
+                      <p class="description">نقدم الصيانه لجميع انواع السيارت.</p>
+                  </div>
+              </div>
+              </div>
+          </div>
+      </div>
+  
+  </div>
+  </div>
+  <!--===========  END SERVICES =============-->
+
+  <!--===========   GALLERY  =============-->
+  <section id="gallery" class="section-p-s">
+    <div class="container">
+      <!-- section header -->
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="text-center title-box ">
+            <h2 class="title-text">عنوان</h2>
+            <div class="line-un"></div>
+          </div>
+        </div>
+      </div>
+      <div id="cards-container" class="row justify-content-center">
+      </div>
+      <button id="load-more-cards-btn" class="btn btn-outline-dark">المزيد</button>
+    </div>
+  </section>
+  <!--===========  END GALLERY =============-->
+
+  <!--===========  START CONTACTS =============-->
+<section id="contacts" class="contacts section m-0" >
+
+  <div class="container">
+      <h2 class="text-uppercase w-100 text-dark text-center py-5">اتصل <span class="text-danger">بنا</span></h2>
+      <div class="row  justify-content-center">
+          <div class="col-md-6 text-white flex-column " style="width: 300px;padding: 15px;">
+              <div class="my-4 lead">
+                  <label class="w-100 text-danger">رقم الهاتف</label>
+                  <span class="text-dark"><i class="fa-solid fa-phone mx-2"></i>01029729698</span>
+              </div>
+              
+              <div class="my-4 lead">
+                  <label class="w-100 text-danger">فاكس</label>
+                  <span class="text-dark"><i class="fa-solid fa-fax mx-2 text-primary"></i>02-37808886</span>
+              </div>
+              <div class="my-4 lead">
+                  <label class="w-100 text-danger">واتساب</label>
+                  <span class="text-dark"><i class="fa-brands fa-whatsapp mx-2"  style="color: #25D366;"></i>01003265694</span>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <form  class="p-3 m-0 row gap-3 justify-content-center justify-content-md-between">
+                  <input style="height:40px;" class=" border-0 text-dark shadow-lg  col-md-5 rounded my-3 " type="text" class="form-control" placeholder="الاسم" />
+                  <input style="height:40px;" class=" border-0 text-dark shadow-lg col-md-5 rounded my-3 " type="email" class="form-control" placeholder="ايميل" />
+                  <textarea class="col-12 shadow rounded my-3 border-0 text-dark " placeholder="اترك رسالتك من فضلك" name="" id="" cols="30" rows="10"></textarea>
+                  <button type="submit" class="btn btn-outline-dark sendbtn ms-auto w-25">ارسال</button>
+              </form>
+          </div>
+      </div>
+  </div>
+  </section>
+  <!--=========== END CONTACTS =============-->
+
+
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script> 
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="module" src="./js/main.js" defer></script>
+
+
+</body>
+</html>
